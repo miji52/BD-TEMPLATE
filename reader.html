@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lecture - Ma BD</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="reader-page">
+  <button id="homeBtn" class="home-icon" aria-label="Retour à l'accueil" title="Retour à l'accueil">
+    ⌂
+  </button>
+
+  <main class="reader-container">
+    <div class="page-frame">
+      <img id="pageImage" src="pages/page01.jpg" alt="Page de BD" class="page-image" />
+      <div id="pageOverlay" class="page-overlay"></div>
+    </div>
+
+    <div id="hint" class="hint">
+      Clique à gauche/droite • Swipe • ← →
+    </div>
+
+    <div class="nav-zone nav-left" id="prevZone" aria-label="Page précédente"></div>
+    <div class="nav-zone nav-right" id="nextZone" aria-label="Page suivante"></div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
